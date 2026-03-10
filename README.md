@@ -56,14 +56,6 @@ xv6-coding-archive/
 │ ├── syscall.c
 │ └── sysproc.c
 └── README.md
-文本
-
-编辑
-
-
-
-
-> Each feature is isolated in its own directory for clarity and testing.
 
 ---
 
@@ -74,11 +66,6 @@ xv6-coding-archive/
    git clone https://github.com/yourusername/xv6-advanced-features.git
 Navigate to each feature directory and build:
 bash
-
-编辑
-
-
-
 cd LRU/kernel
 make qemu
 Run tests:
