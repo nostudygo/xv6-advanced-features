@@ -40,3 +40,52 @@ This repository contains a series of advanced features implemented on the **xv6 
 ---
 
 ## 🗂 Project Structure
+xv6-coding-archive/
+├── COW/kernel/ # Copy-on-Write implementation
+│ ├── proc.c
+│ ├── vm.c
+│ └── trap.c
+├── LRU/kernel/ # LRU + Swap implementation
+│ ├── fs.c
+│ ├── vm.c
+│ └── trap.c
+├── lazy_location/kernel/ # Lazy Allocation
+│ ├── syscall.c
+│ └── trap.c
+├── trace/kernel/ # Trace system call
+│ ├── syscall.c
+│ └── sysproc.c
+└── README.md
+文本
+
+编辑
+
+
+
+
+> Each feature is isolated in its own directory for clarity and testing.
+
+---
+
+## 🚀 How to Build & Test
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/xv6-advanced-features.git
+Navigate to each feature directory and build:
+bash
+
+编辑
+
+
+
+cd LRU/kernel
+make qemu
+Run tests:
+lazytests, cowtest, trace, swaptest (if implemented)
+🌐 License
+MIT License – See LICENSE file.
+🤝 Contributions
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+📬 Contact
+For questions or feedback, contact me at your-email@example.com
