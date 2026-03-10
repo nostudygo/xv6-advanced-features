@@ -74,5 +74,3 @@ lazytests, cowtest, trace, swaptest (if implemented)
 MIT License – See LICENSE file.
 🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-📬 Contact
-For questions or feedback, contact me at your-email@example.com
